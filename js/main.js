@@ -1,1 +1,1 @@
-import './generation.js'
+import './generation.js';

@@ -20,7 +20,7 @@ const authorNumber = function(min, max){
 
   }
 
-  return String('0' + (Math.floor(Math.random() * (max - min) + min)));
+  return String((Math.floor(Math.random() * (max - min) + min)));
 
 };
 
