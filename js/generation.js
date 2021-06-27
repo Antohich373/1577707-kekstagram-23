@@ -2,11 +2,11 @@ const checingString = function(strings, maxLenght) {
 
   if(strings.length <= maxLenght) {
 
-    return true
+    return true;
 
-  };
+  }
 
-  return false
+  return false;
 
 };
 
@@ -18,7 +18,7 @@ const authorNumber = function(min, max){
 
     throw(new Error('Ошибка - введите числа корректно'));
 
-  };
+  }
 
   return String('0' + (Math.floor(Math.random() * (max - min) + min)));
 
