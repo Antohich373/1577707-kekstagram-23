@@ -1,12 +1,12 @@
 const checingString = function(strings, maxLenght) {
 
-    if(strings.length <= maxLenght) {
+  if(strings.length <= maxLenght) {
 
-        return true
-        
-    };
+    return true
 
-    return false
+  };
+
+  return false
 
 };
 
@@ -14,13 +14,13 @@ checingString(10, 100);
 
 const authorNumber = function(min, max){
 
-    if(min >= max || max <= min || min < 0 || max < 0) {
+  if(min >= max || max <= min || min < 0 || max < 0) {
 
     throw(new Error('Ошибка - введите числа корректно'));
 
-    };
+  };
 
-    return String('0' + (Math.floor(Math.random() * (max - min) + min)));
+  return String('0' + (Math.floor(Math.random() * (max - min) + min)));
 
 };
 
